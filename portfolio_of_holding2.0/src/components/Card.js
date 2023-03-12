@@ -4,7 +4,13 @@ import React from "react";
 // Notice that each key lists CSS styles in camel case
 const styles = {
   card: {
-    margin: 20,
+    width: "50vw",
+    marginBottom: "25px",
+    background: "#e8eaf6",
+  },
+  image: {
+    width: "50vw",
+    justifyContent: "center",
     background: "#e8eaf6",
   },
   heading: {
@@ -14,9 +20,12 @@ const styles = {
     fontSize: "1.2rem",
     color: "white",
     padding: "0 20px",
+    textAlign: "center"
   },
   content: {
     padding: 20,
+    color: "white",
+    background: "#3f51b5",
   },
 };
 
@@ -27,7 +36,8 @@ function Card(props) {
     <a href={project.link}>
       <div style={styles.card}>
         <div style={styles.heading}>{project.name}</div>
-        <div style={javascript}>{project.description}</div>
+        <img style={styles.image} src={project.image} alt={project.name}></img>
+        <div style={styles.content}>{project.description}</div>
       </div>
     </a>
   ));
