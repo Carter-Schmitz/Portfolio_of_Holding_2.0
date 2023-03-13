@@ -2,20 +2,13 @@ import React from 'react';
 
 export default function About() {
   return (
-    <div>
-      <h1>Home Page</h1>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque
-        velit, lobortis ut magna varius, blandit rhoncus sem. Morbi lacinia nisi
-        ac dui fermentum, sed luctus urna tincidunt. Etiam ut feugiat ex. Cras
-        non risus mi. Curabitur mattis rutrum ipsum, ut aliquet urna imperdiet
-        ac. Sed nec nulla aliquam, bibendum odio eget, vestibulum tortor. Cras
-        rutrum ligula in tincidunt commodo. Morbi sit amet mollis orci, in
-        tristique ex. Donec nec ornare elit. Donec blandit est sed risus feugiat
-        porttitor. Vestibulum molestie hendrerit massa non consequat. Vestibulum
-        vitae lorem tortor. In elementum ultricies tempus. Interdum et malesuada
-        fames ac ante ipsum primis in faucibus.
-      </p>
+    <div className='about'>
+      <h1>About Me</h1>
+      <p>Full-Stack Web Developer. Proficient with the most current technologies used to build web based applications. </p>
+        <p>Always a team player, I have worked with dozens of separate groups over the years. On projects with as few as
+            3 people, to a group of 30. I understand the nuances and challenging dynamics that can come with working
+            within a team. And I excel in that particular field. Every member of a team has something they can
+            contribute, and if you like the work you see, I hope to be a part of your team very soon.</p>
     </div>
   );
 }

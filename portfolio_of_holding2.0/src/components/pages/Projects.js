@@ -19,12 +19,23 @@ const projects = [
       "https://carter-schmitz.github.io/Portfolio-of-holding/assets/DidITakeThat.jpeg",
     description: "A full stack web application to enter and track medications.",
   },
+  {
+    id: 3,
+    name: "Technically True",
+    link: "https://technically-true.herokuapp.com/",
+    image:
+      "https://carter-schmitz.github.io/Portfolio-of-holding/assets/DidITakeThat.jpeg",
+    description: "A fully functonal tech blog that utilizes sessions and authentication criteria.",
+  },
 ];
 
 export default function Projects() {
   return (
     <div>
-      <Card projects={projects}></Card>
+      <h1 className="header"> My Work So Far</h1>
+      <div className="projects">
+      <Card projects={projects} className="projects"></Card>
+      </div>
     </div>
   );
 }

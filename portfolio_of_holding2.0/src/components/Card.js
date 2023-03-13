@@ -4,18 +4,23 @@ import React from "react";
 // Notice that each key lists CSS styles in camel case
 const styles = {
   card: {
-    width: "50vw",
-    marginBottom: "25px",
-    background: "#e8eaf6",
+    width: "25vw",
+    height: "50vw",
+    marginLeft: "25px",
+    background: "transparent",
+    display: "flex",
+    flexDirection: "row"
+  },
+  orientation: {
+    
   },
   image: {
-    width: "50vw",
+    width: "25vw",
     justifyContent: "center",
     background: "#e8eaf6",
   },
   heading: {
     background: "#3f51b5",
-    minHeight: 50,
     lineHeight: 3.5, //line-height
     fontSize: "1.2rem",
     color: "white",
@@ -33,13 +38,13 @@ const styles = {
 // We are assigning the card, heading, and content all from our `style` object
 function Card(props) {
   return props.projects.map((project) => (
-    <a href={project.link}>
       <div style={styles.card}>
+      <a href={project.link} style={styles.orientation}>
         <div style={styles.heading}>{project.name}</div>
         <img style={styles.image} src={project.image} alt={project.name}></img>
         <div style={styles.content}>{project.description}</div>
+        </a>
       </div>
-    </a>
   ));
 }
 
