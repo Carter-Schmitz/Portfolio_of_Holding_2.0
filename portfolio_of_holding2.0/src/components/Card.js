@@ -4,25 +4,23 @@ import React from "react";
 // Notice that each key lists CSS styles in camel case
 const styles = {
   card: {
-    width: "25vw",
-    height: "50vw",
+    width: "30vw",
+    height: "30vw",
     marginLeft: "25px",
     background: "transparent",
-    display: "flex",
-    flexDirection: "row"
   },
   orientation: {
     
   },
   image: {
-    width: "25vw",
+    width: "30vw",
     justifyContent: "center",
     background: "#e8eaf6",
   },
   heading: {
     background: "#3f51b5",
     lineHeight: 3.5, //line-height
-    fontSize: "1.2rem",
+    fontSize: "60%",
     color: "white",
     padding: "0 20px",
     textAlign: "center"
@@ -31,6 +29,7 @@ const styles = {
     padding: 20,
     color: "white",
     background: "#3f51b5",
+    fontSize: "50%"
   },
 };
 

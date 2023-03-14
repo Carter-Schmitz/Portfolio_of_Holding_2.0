@@ -1,3 +1,7 @@
+* {
+  background-color: #1c2b49;
+}
+
 .App {
   text-align: center;
   background-color: #1c2b49;
@@ -64,13 +68,14 @@ body {
 
 .projects {
   background-color: #1c2b49;
-  height: 100vmin;
-  display: inline-flex;
-  flex-direction: row;
+  height: 200vmin;
+  display: grid;
+  grid: 30vw / auto auto auto;
   justify-content: center;
   padding: 20px;
   font-size: calc(10px + 2vmin);
   color: white;
+  margin-bottom: auto;
 }
 
 
@@ -78,11 +83,20 @@ body {
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media screen and (max-width: 998px){
+  .projects {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-left: -1.5rem;
+    margin-right: -1.5rem;
   }
-  to {
-    transform: rotate(360deg);
+  .card{
+    width: 20vw;
+    height: 20vw;
+    margin-left: 10px;
+  }
+  .content{
+    font-size: x-small;
   }
 }
