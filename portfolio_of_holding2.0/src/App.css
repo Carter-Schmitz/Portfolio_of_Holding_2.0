@@ -90,7 +90,7 @@ max-height:40%;
 }
 
 .contactForm {
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.7);
   text-align: center;
   max-width: 100vw;
   margin: 20px auto;
@@ -100,9 +100,18 @@ max-height:40%;
   color:black;
 }
 
-label {
-  background-color: white;
+.list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
+
 
 @media screen and (max-width: 998px){
   .projects {
