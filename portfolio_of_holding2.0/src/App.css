@@ -90,13 +90,9 @@ body {
     flex-direction: row;
     margin-left: -1.5rem;
     margin-right: -1.5rem;
+    font-size: small;
   }
-  .card{
-    width: 20vw;
-    height: 20vw;
-    margin-left: 10px;
-  }
-  .content{
-    font-size: x-small;
+  a {
+    margin-bottom: 20%;
   }
 }

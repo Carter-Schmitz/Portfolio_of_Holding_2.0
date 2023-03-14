@@ -19,8 +19,7 @@ const styles = {
   },
   heading: {
     background: "#3f51b5",
-    lineHeight: 3.5, //line-height
-    fontSize: "60%",
+    fontSize: "100%",
     color: "white",
     padding: "0 20px",
     textAlign: "center"
@@ -29,7 +28,7 @@ const styles = {
     padding: 20,
     color: "white",
     background: "#3f51b5",
-    fontSize: "50%"
+    fontSize: "80%"
   },
 };
 
