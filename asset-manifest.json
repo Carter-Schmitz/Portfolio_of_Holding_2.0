@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.fa01c3ca.css",
-    "main.js": "/static/js/main.c01da9a2.js",
-    "static/js/787.2d801c92.chunk.js": "/static/js/787.2d801c92.chunk.js",
-    "index.html": "/index.html",
-    "main.fa01c3ca.css.map": "/static/css/main.fa01c3ca.css.map",
-    "main.c01da9a2.js.map": "/static/js/main.c01da9a2.js.map",
-    "787.2d801c92.chunk.js.map": "/static/js/787.2d801c92.chunk.js.map"
+    "main.css": "/Portfolio_of_Holding_2.0/static/css/main.fa01c3ca.css",
+    "main.js": "/Portfolio_of_Holding_2.0/static/js/main.142629ad.js",
+    "static/js/787.2d801c92.chunk.js": "/Portfolio_of_Holding_2.0/static/js/787.2d801c92.chunk.js",
+    "index.html": "/Portfolio_of_Holding_2.0/index.html",
+    "main.fa01c3ca.css.map": "/Portfolio_of_Holding_2.0/static/css/main.fa01c3ca.css.map",
+    "main.142629ad.js.map": "/Portfolio_of_Holding_2.0/static/js/main.142629ad.js.map",
+    "787.2d801c92.chunk.js.map": "/Portfolio_of_Holding_2.0/static/js/787.2d801c92.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fa01c3ca.css",
-    "static/js/main.c01da9a2.js"
+    "static/js/main.142629ad.js"
   ]
 }
