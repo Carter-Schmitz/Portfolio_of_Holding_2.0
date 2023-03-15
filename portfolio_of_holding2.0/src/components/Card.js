@@ -8,6 +8,7 @@ const styles = {
     height: "30vw",
     marginLeft: "25px",
     background: "transparent",
+    borderRadius: "25px"
   },
   orientation: {
     
@@ -22,13 +23,15 @@ const styles = {
     fontSize: "100%",
     color: "white",
     padding: "0 20px",
-    textAlign: "center"
+    textAlign: "center",
+    borderRadius: "20px 20px 0px 0px"
   },
   content: {
     padding: 20,
     color: "white",
     background: "#3f51b5",
-    fontSize: "80%"
+    fontSize: "80%",
+    borderRadius: "0px 0px 20px 20px"
   },
 };
 
