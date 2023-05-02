@@ -29,11 +29,11 @@ const projects = [
   },
   {
     id: 4,
-    name: "How's the weather up there",
-    link: "https://carter-schmitz.github.io/Hows-the-weather-up-there/",
+    name: "Rappor",
+    link: "https://rappor-social-media.herokuapp.com/",
     image:
-      "https://user-images.githubusercontent.com/113850230/202354140-330fb46f-7dfa-49c2-ad74-3166bb565c6b.PNG",
-    description: "An application that utilizes weatherAPI to find current weather conditions.",
+      "https://user-images.githubusercontent.com/113850230/235564906-abd2de0e-a008-49b7-ad4d-e2ef38e67549.PNG",
+    description: "A MERN stack social media platform",
   },
   {
     id: 5,
